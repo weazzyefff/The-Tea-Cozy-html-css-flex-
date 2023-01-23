@@ -1,0 +1,127 @@
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px rgba(255, 245, 238, 0.9);
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+main {
+  background-image: url("img/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+
+}
+
+.mission-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.recipes img {
+  height: 200px;
+  width: 300px;
+}
+
+.recipes div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipes div p {
+  padding: 10px 0px 0px 0px;
+}
+
+.locations-container {
+  background-image: url("img/img-locations-background.jpg");
+  height: 500px;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  flex-direction: column;
+}
+
+.locations, .locations h2{
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  background-color: transparent;
+  margin-bottom: 15px;
+  
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: transparent;
+}
+.cards-container div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+.last-section {
+  height: 200px;
+ 
+}
+.last-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  margin-left: 20px;
+}
